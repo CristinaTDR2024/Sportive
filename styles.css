@@ -51,3 +51,17 @@ padding: 12px 0;
 .bar li.has-dropdown:hover .dropdown {
   display: block;
 }
+.btn-custom {
+    background-color: black;  /* Fondo del botón */
+    color: white;             /* Color de la letra */
+    font-family: Arial, sans-serif; /* Tipo de letra */
+    padding: 10px 20px;       /* Espaciado dentro del botón */
+    border: none;             /* Sin borde */
+    border-radius: 5px;       /* Bordes redondeados */
+    cursor: pointer;          /* Cursor de mano al pasar sobre el botón */
+    font-size: 16px;          /* Tamaño de la letra */
+}
+
+.btn-custom:hover {
+    background-color: #333;   /* Cambia el color al pasar el ratón */
+}
