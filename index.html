@@ -1,11 +1,26 @@
 <html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
   <body>
     <div class="container">
       <nav>
       <ul class="bar">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Información</a></li>
-        <li><a href="#" class="active">Contacto</a></li>
+        <li><a href="#" class="active">Inicio</a></li>
+        <li class="has-dropdown">
+          <a href="#">Información</a>
+          <ul class="dropdown">
+            <li><a href="#">La empresa</a></li>
+            <li><a href="#">El equipo</a></li>
+          </ul>
+        </li>
+        <li class="has-dropdown">
+          <a href="#">Contacto</a>
+          <ul class="dropdown">
+            <li><a href="#">Email</a></li>
+            <li><a href="#">Teléfono</a></li>
+          </ul>
+        </li>
         <li><a href="#">Empleo</a></li>
       </ul>
       </nav>
