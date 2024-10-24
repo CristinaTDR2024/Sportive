@@ -52,19 +52,19 @@ padding: 12px 0;
   display: block;
 }
 .btn-custom {
-    background-color: black;  /* Fondo negro */
-    color: white;             /* Texto blanco */
-    font-family: Arial, sans-serif; /* Tipo de letra Arial */
-    padding: 15px 30px;       /* Espaciado más grande para el botón */
-    border: none;             /* Sin borde */
-    border-radius: 25px;      /* Bordes bien redondeados */
-    cursor: pointer;          /* Cursor de mano al pasar sobre el botón */
-    font-size: 18px;          /* Texto más grande */
-    width: 200px;             /* Ancho del botón */
-    height: 60px;             /* Altura del botón */
-    text-align: center;       /* Texto centrado */
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 30px 35px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
 }
 
 .btn-custom:hover {
-    background-color: #333;   /* Cambia el color al pasar el ratón */
+    background-color: #333;
 }
